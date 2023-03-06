@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../public/images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts - Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <link rel="stylesheet" href="./scss/main.scss" />
+
+    <script src="./js/script.js" defer></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="container">
+      <section class="hero flex flex-direction-column flex-direction-row">
+        <div
+          class="text-align-center flex-order-2 text-align-left-desktop flex-order-1-desktop flex-width-39-desktop"
+        >
+          <h1 class="hero__h1">A Simple Bookmark Manager</h1>
+          <p class="hero__sub">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+
+          <div class="flex flex-gap-1 flex-justify-between text-align-center">
+            <a
+              href="#"
+              class="btn btn--primary font-size-14 box-shadow-bottom max-width-200-desktop"
+              >Get it on Chrome</a
+            >
+            <a
+              href="#"
+              class="btn btn--light font-size-14 box-shadow-bottom max-width-200-desktop"
+              >Get it on Firefox</a
+            >
+          </div>
+        </div>
+        <div class="img-container flex-order-1 flex-order-2-desktop">
+          <img
+            class="img"
+            src="../public/images/illustration-hero.svg"
+            alt=""
+            role="presentation"
+          />
+        </div>
+      </section>
+    </div>
+    <!-- Hero Section -->
+  </body>
+</html>
