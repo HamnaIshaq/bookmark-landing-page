@@ -1,0 +1,45 @@
+.flex {
+  display: flex;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-gap-1 {
+  gap: 0.5em;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-order-1 {
+  order: 1;
+}
+
+.flex-order-2 {
+  order: 2;
+}
+
+@media (min-width: 1000px) {
+  .flex-direction-row {
+    flex-direction: row;
+  }
+
+  .flex-order-1-desktop {
+    order: 1;
+  }
+
+  .flex-order-2-desktop {
+    order: 2;
+  }
+
+  .flex-width-39-desktop {
+    width: 39%;
+  }
+}

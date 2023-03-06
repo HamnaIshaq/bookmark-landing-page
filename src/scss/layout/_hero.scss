@@ -1,0 +1,27 @@
+body {
+  overflow-x: hidden;
+}
+
+.img {
+  width: 100%;
+}
+
+.img-container {
+  position: relative;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.img-container::before {
+  content: "";
+  position: absolute;
+  background-color: hsl(231, 69%, 60%);
+  display: block;
+  height: 86%;
+  width: 5000px;
+  z-index: -1;
+  right: -200px;
+  top: 20%;
+  left: 20%;
+  border-radius: 500px;
+}
