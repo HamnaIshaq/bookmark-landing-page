@@ -1,0 +1,23 @@
+{
+  "name": "bookmark-landing-page",
+  "version": "1.0.0",
+  "description": "Bookmark landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html && parcel watch src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [
+    "HTML",
+    "SASS",
+    "Parcel",
+    "Vanilla JS"
+  ],
+  "author": "Hamna Ishaq",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "sass": "^1.58.3"
+  }
+}
