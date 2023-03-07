@@ -5,6 +5,14 @@ body {
   color: $neutral-very-dark-blue;
   font-weight: 400;
   font-size: $body-font-size;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 a {
@@ -28,6 +36,15 @@ h1 {
   margin-top: 2em;
   font-weight: 500;
   font-size: $font-size-30;
+}
+
+h2 {
+  font-size: $font-size-26;
+}
+
+h3 {
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 p {
