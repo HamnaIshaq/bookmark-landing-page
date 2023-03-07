@@ -12,7 +12,7 @@
     background-color: $primary-soft-blue;
     border: 2px solid $primary-soft-blue;
     font-weight: 500;
-    transition: background-color 0.4s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 
     &:hover,
     &:focus {
@@ -26,7 +26,7 @@
     background-color: $primary-light-gray;
     border: 2px solid $primary-light-gray;
     font-weight: 500;
-    transition: border 0.4s ease-in-out;
+    transition: border 0.3s ease-in-out;
 
     &:hover,
     &:focus {
