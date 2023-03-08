@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.flex-justify-center {
+  justify-content: center;
+}
+
 .flex-gap-1 {
   gap: 0.5em;
 }
@@ -41,5 +45,13 @@
 
   .flex-width-39-desktop {
     width: 39%;
+  }
+
+  .flex-width-70-desktop {
+    width: 70%;
+  }
+
+  .flex-width-30-desktop {
+    width: 30%;
   }
 }
