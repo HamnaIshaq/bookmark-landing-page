@@ -39,7 +39,7 @@
   </head>
   <body>
     <!-- Hero Section -->
-    <div class="container">
+    <div class="container margin-0-auto max-width-1200">
       <section class="hero flex flex-direction-column flex-direction-row">
         <div
           class="max-width-500 margin-0-auto text-align-center flex-order-2 text-align-left-desktop flex-order-1-desktop flex-width-39-desktop"
@@ -77,7 +77,7 @@
     <!-- Hero Section -->
 
     <!-- Download Extension Section -->
-    <div class="container">
+    <div class="container margin-0-auto max-width-1200">
       <section class="download-extension text-align-center">
         <div class="margin-0-auto max-width-500">
           <h2>Download the extension</h2>
@@ -163,5 +163,107 @@
       </section>
     </div>
     <!-- Download Extension Section -->
+
+    <!-- Join Newsletter Section -->
+    <div
+      class="container text-align-center color-white bg-color-soft-blue margin-top-5 padding-top-5"
+    >
+      <section class="max-width-450 margin-0-auto">
+        <div class="flex flex-direction-column">
+          <h2 class="flex-order-1 letter-spacing-1 margin-0 margin-bottom-1-5">
+            Stay up-to-date with with what we're doing
+          </h2>
+          <p
+            class="color-white letter-spacing-1 text-uppercase margin-0 margin-bottom-1 font-size-14 letter-spacing-4"
+          >
+            35,000+ already joined
+          </p>
+        </div>
+
+        <form
+          class="flex flex-direction-column flex-direction-row flex-justify-between flex-gap-1"
+        >
+          <label
+            for="email"
+            class="form-container margin-bottom-0-3-5 margin-bottom-0-desktop flex-width-70-desktop"
+            id="error-container"
+          >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              class="height-full font-size-14"
+            />
+            <img
+              class="hide-acc"
+              id="error-img"
+              src="../public/images/icon-error.svg"
+              alt=""
+              role="presentation"
+            />
+
+            <span class="hide-acc" id="error-msg"></span>
+          </label>
+          <button
+            type="submit"
+            class="btn btn--danger flex-width-30-desktop"
+            id="btn-contact-us"
+          >
+            Contact Us
+          </button>
+        </form>
+      </section>
+    </div>
+    <!-- Join Newsletter Section -->
+
+    <!-- Footer -->
+    <div class="footer text-align-center">
+      <footer
+        class="max-width-1200 flex flex-direction-column flex-direction-row flex-align-center flex-justify-between margin-0-auto"
+      >
+        <div>
+          <a href="#">
+            <img
+              src="../public/images/logo-bookmark.svg"
+              alt="logo"
+              class="bookmark-logo margin-0-auto"
+            />
+          </a>
+        </div>
+
+        <nav class="flex-width-70-desktop">
+          <ul
+            class="text-uppercase flex flex-direction-column flex-direction-row"
+          >
+            <li>
+              <a href="#" class="btn btn--default">features</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--default">pricing</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--default">contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul class="flex flex-justify-center">
+            <li>
+              <a href="#" class="btn padding-0">
+                <img src="../public/images/icon-facebook.svg" alt="facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn padding-0">
+                <img src="../public/images/icon-twitter.svg" alt="twitter" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+    <!-- Footer -->
   </body>
 </html>
