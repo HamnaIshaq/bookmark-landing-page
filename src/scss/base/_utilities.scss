@@ -6,8 +6,6 @@
 
 .container {
   padding: 38px 32px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .color-white {
@@ -42,12 +40,28 @@
   margin-top: 2em;
 }
 
+.margin-top-5 {
+  margin-top: 5em;
+}
+
 .margin-bottom-0-3-5 {
   margin-bottom: 0.35em;
 }
 
+.margin-bottom-1-5 {
+  margin-bottom: 1.5em;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1em;
+}
+
 .border-radius-8 {
   border-radius: 8px;
+}
+
+.padding-0 {
+  padding: 0;
 }
 
 .padding-1 {
@@ -58,12 +72,28 @@
   padding: 2em;
 }
 
+.padding-top-5 {
+  padding-top: 5em;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.max-width-450 {
+  max-width: 450px;
+}
+
 .max-width-500 {
   max-width: 500px;
 }
 
 .max-width-920 {
   max-width: 920px;
+}
+
+.max-width-1200 {
+  max-width: 1200px;
 }
 
 .width-full {
@@ -78,6 +108,22 @@
   transform: translateY(25%);
 }
 
+.bg-color-soft-blue {
+  background-color: $primary-soft-blue;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
+}
+
+.height-full {
+  height: 100%;
+}
+
 @media (min-width: 1000px) {
   .text-align-left-desktop {
     text-align: left;
@@ -85,5 +131,9 @@
 
   .max-width-200-desktop {
     max-width: 200px;
+  }
+
+  .margin-bottom-0-desktop {
+    margin-bottom: 0;
   }
 }
