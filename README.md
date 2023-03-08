@@ -28,10 +28,10 @@ Users should be able to:
   - [x] Download product section
   - [] FAQ section
     - [] Functional accordian
-  - [] Join newsletter form section
-    - [] Receive error if email is not entered
-    - [] Receive error if email is not formatted correctly
-  - [] Footer section
+  - [x] Join newsletter form section
+    - [x] Receive error if email is not entered
+    - [x] Receive error if email is not formatted correctly
+  - [x] Footer section
 
   #### Specific features
 
@@ -59,6 +59,7 @@ Users should be able to:
 - [Stop using @import with Sass | @use and @forward explained by Kevin Powell](https://www.youtube.com/watch?v=CR-a8upNjJ0) - This helped me learn exactly what @use and @forward are and how to use them in SCSS. I would highly recommend Kevin Powell youtube channel if you want to learn the hows of CSS.
 - [Before and After pseudo elements explained - part one: how they work by Kevin Powell](https://www.youtube.com/watch?v=zGiirUiWslI) - This video helped me learn that pseudo-elements are elements that are inserted before (using ::before) and after (using ::after) the actual content. This is why they do not work on images as images do not fit into the normal CSS content model.
 - [Four Card Feature Section - Design to HTML/CSS by Florin Pop](https://www.youtube.com/watch?v=PcSUEo0P0GU&t=2012s) - This helped me in giving top spacing to the cards very easily.
+- [How To - Change Placeholder Color by w3schools](https://www.w3schools.com/howto/howto_css_placeholder.asp) - This helped me in learning how to change color for input placeholders.
 
 ## Author
 
