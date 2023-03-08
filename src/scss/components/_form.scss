@@ -1,0 +1,36 @@
+.error-img {
+  opacity: 1;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 92%;
+  top: 11px;
+}
+
+.error-msg {
+  display: block;
+  text-align: left;
+  background-color: #fa5757;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 1em;
+  font-size: 14px;
+  font-style: italic;
+  padding: 0.5em;
+  opacity: 1;
+  width: fit-content;
+  height: fit-content;
+}
+
+.error-field {
+  border: 2px solid #fa5757;
+}
+
+.error-container {
+  border-radius: 5px;
+  background-color: #fa5757;
+}
+
+.form-container {
+  position: relative;
+  display: block;
+}
