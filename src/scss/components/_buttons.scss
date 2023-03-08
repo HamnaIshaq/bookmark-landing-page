@@ -7,6 +7,8 @@
   color: $white;
   width: 100%;
   align-self: center;
+  cursor: pointer;
+  font-size: $font-size-14;
 
   &--primary {
     background-color: $primary-soft-blue;
@@ -33,6 +35,29 @@
       background-color: transparent;
       border: 2px solid $neutral-dark-grayish;
       color: $neutral-dark-grayish;
+    }
+  }
+
+  &--danger {
+    color: $white;
+    background-color: $primary-soft-red;
+    border: 2px solid $primary-soft-red;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+      background-color: $white;
+      color: $primary-soft-red;
+    }
+  }
+
+  &--default {
+    transition: color 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: $primary-soft-red;
     }
   }
 }
