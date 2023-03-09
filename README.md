@@ -26,8 +26,8 @@ Users should be able to:
   - [x] Hero section
   - [] Features section with tabble panels
   - [x] Download product section
-  - [] FAQ section
-    - [] Functional accordian
+  - [x] FAQ section
+    - [x] Functional accordian
   - [x] Join newsletter form section
     - [x] Receive error if email is not entered
     - [x] Receive error if email is not formatted correctly
@@ -60,6 +60,7 @@ Users should be able to:
 - [Before and After pseudo elements explained - part one: how they work by Kevin Powell](https://www.youtube.com/watch?v=zGiirUiWslI) - This video helped me learn that pseudo-elements are elements that are inserted before (using ::before) and after (using ::after) the actual content. This is why they do not work on images as images do not fit into the normal CSS content model.
 - [Four Card Feature Section - Design to HTML/CSS by Florin Pop](https://www.youtube.com/watch?v=PcSUEo0P0GU&t=2012s) - This helped me in giving top spacing to the cards very easily.
 - [How To - Change Placeholder Color by w3schools](https://www.w3schools.com/howto/howto_css_placeholder.asp) - This helped me in learning how to change color for input placeholders.
+- [Accordion - Bootstrap 5.0 Official Documentation](https://getbootstrap.com/docs/5.0/components/accordion/) - I used this to get an idea of how the accordion will function. I also tried to use the same class names used here as I had difficulty coming up with them on my own.
 
 ## Author
 
