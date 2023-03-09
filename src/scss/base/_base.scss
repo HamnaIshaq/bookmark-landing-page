@@ -71,10 +71,19 @@ input {
 
 .hide-acc {
   opacity: 0;
-  width: 1;
-  height: 1;
+  width: 0;
+  height: 0;
   position: absolute;
   left: -10000px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 svg {
