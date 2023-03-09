@@ -60,4 +60,10 @@
       color: $primary-soft-red;
     }
   }
+
+  &--text-only {
+    background: none;
+    border: none;
+    color: $neutral-very-dark-blue;
+  }
 }
